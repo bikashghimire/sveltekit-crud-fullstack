@@ -1,21 +1,21 @@
 {
-	"name": "sveltekit-crud-fullstack",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/adapter-netlify": "^2.0.8",
-		"@sveltejs/kit": "^1.20.4",
-		"svelte": "^4.0.5",
-		"vite": "^4.4.2"
-	},
-	"type": "module",
-	"dependencies": {
-		"firebase": "^10.1.0"
-	}
+  "name": "sveltekit-crud-fullstack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-vercel": "^1.0.0-next.88",
+    "@sveltejs/kit": "^1.20.4",
+    "svelte": "^4.0.5",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "firebase": "^10.1.0"
+  }
 }
